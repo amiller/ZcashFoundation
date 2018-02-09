@@ -33,14 +33,17 @@ We’ll have an informal process for suggesting and adding new Panel members we�
 Conducting the first board election using the Community Approval Panel
 --
 We’ll conduct an election of board members using the Community Approval Panel. The election will be conducted ahead of Zcon0 if possible, remotely, although an in-person component will be included too. We’ll collect votes online, via the communication method preferred by each Panel member. 
+
 Our primary design goals will be to ensure that votes are not double counted or suppressed. We’ll achieve this through transparency. Votes will not be secret. Instead we’ll publish and archive all the votes, so that missing or changed votes would be easy to detect. 
 We’d love to develop the technical capacity to have private voting in the future, probably using the Zcash protocol itself. https://eprint.iacr.org/2017/585.pdf 
+
+Due to our bylaws, decisions must ultimately be made by majority vote of board members. Hence we cannot declare this election to be binding, instead the outcome of the election will have to be ratified by the board members before taking effect.
 
 Three proposals for the “Community Approval Panel” to discuss and approve/reject by vote
 ----
 
 1. Approval of the process: approve/reject
-If this does not pass, we should throw an exception and end early
+If this does not pass, we should throw an exception and end this process early.
 
 2. Existing board member Re-election:
 
@@ -50,14 +53,14 @@ If this does not pass, we should throw an exception and end early
 	- Yan Zhu: 		approve/reject
 	- Peter Van Valkenburgh: approve/reject
 
-If more than one or two board members is rejected, does this count as a vote of no confidence? 
+If a majority of board members are rejected, this would seem to suggest a vote of no confidence in the board overall, and hence should also be considered an exception. Proposed way to handle the exception: in the interest of stability and continuity, in this case we should vacate at most 2 seats.
 
 3. Electing new board members
 
 This will use the “Satisfaction Approval Voting” voting method.
 
 Suppose we have N candidates, and k seats to fill, 
-(where k is between 2 and 7 depending on outcome of 2.)
+(where k is between 2 and 4 depending on outcome of Step 2.)
 
 Each voter sees a list of checkboxes next to names:
 
